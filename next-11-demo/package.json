@@ -1,0 +1,35 @@
+{
+  "name": "nextprojectdemo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_ENV=development&& next dev",
+    "build": "NODE_ENV=production && next build",
+    "start": "NODE_ENV=production &&  next start",
+    "lint": "next lint",
+    "type-check": "tsc -w --pretty --noEmit"
+  },
+  "dependencies": {
+    "@mmstudio/an000042": "^1.0.0",
+    "@mmstudio/an000048": "^2.0.0",
+    "@mmstudio/an000049": "^4.0.0",
+    "@mmstudio/an000058": "^1.0.2",
+    "@mmstudio/an000060": "^5.0.0",
+    "@mmstudio/config": "^3.0.0",
+    "@next/env": "^13.1.1",
+    "@types/react": "17.0.11",
+    "anylogger": "^1.0.11",
+    "anylogger-log4js": "^0.2.0",
+    "eslint": "^7.28.0",
+    "eslint-config-next": "^11.0.0",
+    "log4js": "^6.7.1",
+    "next": "^11.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "4.9.4"
+  },
+  "devDependencies": {
+    "@babel/core": "7.14.6",
+    "app-root-path": "^3.1.0"
+  }
+}

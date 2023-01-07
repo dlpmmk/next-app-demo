@@ -1,0 +1,24 @@
+{
+	"max_file_size": 53687091200,
+	"minio": {
+		"endPoint": "minio",
+		"port": 9000,
+		"accessKey": "01factory",
+		"secretKey": "01factory",
+		"useSSL": false,
+		"region": "cn-north-1",
+		"partSize": 5242880
+	},
+	"dbconfig": {
+		"client": "pg",
+		"connection": "postgres://athen:123456@db:5432/postgres",
+		"pool": {
+			"min": 0,
+			"max": 7
+		}
+	},
+	"session": {
+		"secret": "01factory",
+		"expiresIn": "30d"
+	}
+}
