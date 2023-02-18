@@ -1,0 +1,17 @@
+{
+	"recommendations": [
+		"aaron-bond.better-comments",
+		"dbaeumer.vscode-eslint",
+		"eamodio.gitlens",
+		"mm.mmstudio",
+		"divlo.vscode-styled-jsx-languageserver",
+		"blanu.vscode-styled-jsx",
+		"cipchk.cssrem",
+		"formulahendry.auto-rename-tag",
+		"vscode-icons-team.vscode-icons",
+		"bierner.markdown-mermaid",
+		"nopeslide.vscode-drawio-plugin-mermaid",
+		"hediet.vscode-drawio",
+		"analytic-signal.preview-pdf"
+	]
+}

@@ -1,0 +1,20 @@
+version: "3.8"
+
+services:
+  01factory:
+    image: 01factory.io/xxx/xxxxxx/web:dev
+    build:
+      context: ..
+      dockerfile: ./docker/web
+
+  db:
+    image: 01factory.io/xxx/xxxxxx/db:dev
+    build:
+      context: ..
+      dockerfile: ./docker/postgres
+
+  nginx:
+    image: 01factory.io/xxx/xxxxxx/nginx:dev
+    build:
+      context: ..
+      dockerfile: ./docker/nginx

@@ -1,0 +1,38 @@
+{
+	"git.enableSmartCommit": true,
+	"files.eol": "\n",
+	"explorer.confirmDelete": false,
+	"git.confirmSync": false,
+	"git.autofetch": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true,
+		"source.organizeImports": false
+	},
+	"editor.formatOnSave": true,
+	"files.autoSave": "onFocusChange",
+	"explorer.confirmDragAndDrop": false,
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"editor.insertSpaces": false,
+	"editor.autoIndent": "none",
+	"editor.detectIndentation": false,
+	"editor.formatOnType": true,
+	"editor.wordWrap": "on",
+	"explorer.incrementalNaming": "smart",
+	"extensions.ignoreRecommendations": false,
+	"eslint.alwaysShowStatus": true,
+	"eslint.packageManager": "yarn",
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"typescript.preferences.importModuleSpecifier": "relative",
+	"editor.renderWhitespace": "all",
+	"editor.linkedEditing": true,
+	"breadcrumbs.enabled": true,
+	"files.associations": {
+		"*.json": "jsonc",
+		"data": "sql"
+	},
+	"terminal.integrated.shellIntegration.enabled": true,
+	"json.format.keepLines": true,
+	"auto-rename-tag.activationOnLanguage": [ "html", "xml", "php", "typescriptreact" ],
+	"markdown-pdf.mermaidServer": "https://dfactory01.gitee.io/dns/mermaid.min.js",
+	"vsintellicode.modify.editor.suggestSelection": "disabled"
+}
